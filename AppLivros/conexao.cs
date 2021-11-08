@@ -11,7 +11,7 @@ namespace AppLivros
         static public string Conectar()
         {
 
-            return @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=bdlivros;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            return @"Data Source=DESKTOP-4QOUJ24\SQLEXPRESS;Initial Catalog=bdlivro;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         }
     }
